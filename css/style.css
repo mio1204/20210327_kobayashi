@@ -1,0 +1,407 @@
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+/* -----------------ヘッダー----------------- */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 35px;
+  padding: 0 30px 20px;
+  color: #737373;
+}
+
+.header-logo {
+  width: 100px;
+}
+
+.header-logo img {
+  width: 100%;
+}
+
+.header-nav-list {
+  display: flex;
+}
+
+.header-nav-item:not(:last-child) {
+  margin-right: 20px;
+}
+
+/* -----------------トップ----------------- */
+.top {
+  position: relative;
+}
+
+.top-img {
+  margin: 0 0 0 auto;
+  display: block;
+  width: 60%;
+}
+
+.top-line-1 {
+  position: absolute;
+  top: 14%;
+  left: 20%;
+  font-size: 62px;
+  font-family: "Indie Flower", cursive;
+  color: #b31667;
+  line-height: 1.5;
+}
+
+.top-line-2 {
+  position: absolute;
+  top: 55%;
+  left: 20%;
+  font-size: 21px;
+  color: #b31667;
+}
+
+.emphasise {
+  color: darkcyan;
+}
+
+.top-line-3 {
+  position: absolute;
+  top: 61%;
+  left: 20%;
+  font-size: 15px;
+  color: #737373;
+  line-height: 2;
+}
+
+/* -----------------新着情報----------------- */
+.small-title {
+  font-family: "Indie Flower", cursive;
+  color: #b31667;
+  padding: 10px 0;
+}
+
+.title {
+  font-size: 23px;
+  color: #737373;
+}
+
+.news {
+  width: 55%;
+  margin: 100px auto;
+}
+
+.news-list {
+  margin: 30px 0;
+  padding: 15px 0 25px;
+  border-top: 2px solid #ddd;
+  border-bottom: 2px solid #ddd;
+}
+
+.news-item {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+  color: #737373;
+}
+
+.news-label {
+  background-color: #b31667;
+  border-radius: 10px;
+  color: #fff;
+  padding: 2px 10px;
+  margin: 0 25px;
+}
+
+/* -----------------About----------------- */
+.about {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 30px;
+  color: #737373;
+}
+
+.about-item {
+  display: inline-block;
+  text-align: left;
+  width: 76%;
+  column-count: 2;
+  column-gap: 20%;
+  margin: 30px 0 10px;
+  line-height: 1.5;
+}
+
+.about-item p {
+  margin-bottom: 1.5em;
+}
+
+.about-item img {
+  width: 100%;
+}
+
+/* -----------------サービス内容----------------- */
+.service {
+  text-align: center;
+  padding: 30px;
+  margin: 50px auto;
+}
+
+.service-wrap {
+  width: 76%;
+  display: inline-block;
+  text-align: left;
+}
+
+.service-img img {
+  width: 130px;
+  height: auto;
+}
+
+.service-card-2 img,
+.service-card-3 img {
+  margin-left: 20px;
+}
+
+.service-item {
+  display: inline-flex;
+  width: 76%;
+  height: 400px;
+  margin-top: 30px;
+}
+
+.service-card-1 {
+  width: 100%;
+  background-color: #b31667;
+  padding: 30px 20px;
+  box-sizing: border-box;
+}
+
+.service-card-2 {
+  width: 100%;
+  height: 50%;
+  background-color: #b35b8b;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.service-card-3 {
+  width: 100%;
+  height: 50%;
+  background-color: #b2889e;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.service-textbox {
+  margin: 20px;
+  color: #fff;
+}
+
+.service-content {
+  margin-top: 20px;
+  line-height: 1.8;
+  text-align: left;
+}
+
+/* -----------------ブログ----------------- */
+.blog {
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 30px;
+}
+
+.blog-wrap {
+  width: 76%;
+  display: inline-block;
+  text-align: left;
+}
+
+.blog-item {
+  width: 76%;
+  display: inline-flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+.blog-card {
+  width: 30%;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.card-label {
+  background-color: #b31667;
+  color: #fff;
+  position: absolute;
+  padding: 10px 20px;
+}
+
+.blog-img img {
+  width: 100%;
+}
+
+.blog-content {
+  padding: 23px;
+  background-color: #fff;
+}
+
+.blog-ttl {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  color: #737373;
+  margin-bottom: 30px;
+}
+
+.blog-tags {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #737373;
+}
+
+.blog-btn-content {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.blog-btn {
+  background-color: #fff;
+  width: 150px;
+  display: block;
+  padding: 18px;
+  text-align: center;
+  color: #b31667;
+  border-radius: 30px;
+  border: 2px solid #b31667;
+}
+
+/* -----------------会社概要----------------- */
+.company {
+  width: 55%;
+  margin: 50px auto;
+  padding: 30px 0;
+  color: #737373;
+}
+
+.company-wrap {
+  text-align: left;
+}
+
+.company-item {
+  width: 100%;
+  margin-top: 30px;
+}
+
+table th,
+table td {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: left;
+}
+
+table th {
+  font-weight: bold;
+  background-color: #f5f5f5;
+  width: 30%;
+}
+
+/* -----------------採用情報・インタビュー----------------- */
+.recruit-interview {
+  width: 100%;
+  height: 280px;
+  display: flex;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.recruit-img {
+  background-image: url(../img/recruit.png);
+  width: 50%;
+  position: relative;
+}
+
+.recruit-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.interview-img {
+  background-image: url(../img/interview.png);
+  width: 50%;
+  position: relative;
+}
+
+.interview-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* -----------------お問い合わせ----------------- */
+.contact {
+  text-align: center;
+  padding: 80px 0;
+  background-color: #fff;
+}
+
+.contact-lead {
+  padding: 20px 0;
+  font-weight: bold;
+  color: #737373;
+  font-size: 18px;
+}
+
+.contact-line {
+  display: flex;
+  justify-content: center;
+}
+.contact-line-left {
+  border-right: 2px solid #b31667;
+  height: 40px;
+}
+
+.contact-btn-content {
+  padding: 20px 0;
+}
+
+.contact-btn {
+  width: 230px;
+  padding: 25px;
+  color: #fff;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #fe1e90, #b41864);
+  box-shadow: 0 10px 0 rgba(132, 0, 80, 1);
+  display: inline-block;
+  position: relative;
+}
+
+.contact-btn::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 25px;
+  background: url(../img/mailicon.svg) no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  transform: translate(0, -50%);
+}
+
+/* -----------------フッター----------------- */
+.footer {
+  background-color: #f5f5f5;
+  padding: 20px 0;
+  text-align: center;
+  color: #737373;
+}
+
+.copyright {
+  font-size: 13px;
+}
